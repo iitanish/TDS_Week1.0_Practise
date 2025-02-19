@@ -1,0 +1,57 @@
+Version:          Code 1.97.2 (e54c774e0add60467559eb0d1e229c6452cf8447, 2025-02-12T23:20:35.343Z)
+OS Version:       Windows_NT x64 10.0.26100
+CPUs:             Intel(R) Core(TM) i9-14900HX (32 x 2419)
+Memory (System):  15.73GB (4.99GB free)
+VM:               29%
+Screen Reader:    no
+Process Argv:     --crash-reporter-id 16408821-9316-49b3-9c79-a0c6bb26e56c
+GPU Status:       2d_canvas:                              enabled
+                  canvas_oop_rasterization:               enabled_on
+                  direct_rendering_display_compositor:    disabled_off_ok
+                  gpu_compositing:                        enabled
+                  multiple_raster_threads:                enabled_on
+                  opengl:                                 enabled_on
+                  rasterization:                          enabled
+                  raw_draw:                               disabled_off_ok
+                  skia_graphite:                          disabled_off
+                  video_decode:                           enabled
+                  video_encode:                           enabled
+                  vulkan:                                 disabled_off
+                  webgl:                                  enabled
+                  webgl2:                                 enabled
+                  webgpu:                                 enabled
+                  webnn:                                  disabled_off
+
+CPU %   Mem MB     PID  Process
+    0      152    4720  code main
+    0      108     672  fileWatcher [1]
+    0       52    2060     utility-network-service
+    0       35    2368     crashpad-handler
+    0      290    6336  window [1] (tasksB.py - Colab - Visual Studio Code)
+    0      234    7268     gpu-process
+    0      470   11652  extensionHost [1]
+    0       92    7764       electron-nodejs (serverMain.js )
+    0      299   20764       electron-nodejs (bundle.js )
+    0      146   18908  shared-process
+    0      136   28648  ptyHost
+    0        9    2776       conpty-agent
+    0       87    4864       C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\Anish Sharma\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0       84   15264       C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\Anish Sharma\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0        8   21592         C:\WINDOWS\system32\cmd.exe /c ""C:\Users\Anish Sharma\AppData\Local\Programs\Microsoft VS Code\bin\code.cmd" -s"
+    0      103   17632           electron-nodejs (cli.js )
+    1      133    2720             "C:\Users\Anish Sharma\AppData\Local\Programs\Microsoft VS Code\Code.exe" -s
+    0       86   16516               crashpad-handler
+    0       88   24572               utility-network-service
+    0       84   26484               gpu-process
+    0        9   19696       conpty-agent
+    0        9   23216       conpty-agent
+    0       84   27600       C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\Anish Sharma\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0       84   27664       C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\Anish Sharma\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0        9   27796       conpty-agent
+
+Workspace Stats:
+|  Window (tasksB.py - Colab - Visual Studio Code)
+|    Folder (Colab): 10962 files
+|      File types: py(3297) pyc(3295) pyi(253) pyd(152) a(116) mat(110)
+|                  md(109) txt(95) h(88) f90(60)
+|      Conf files: dockerfile(1)
