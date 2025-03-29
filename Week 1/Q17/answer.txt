@@ -1,0 +1,1 @@
+$ diff -y --suppress-common-lines a.txt b.txt | wc -l
